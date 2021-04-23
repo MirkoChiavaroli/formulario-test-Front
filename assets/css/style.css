@@ -1,0 +1,62 @@
+body {
+  background-color: cadetblue;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.container {
+  width: 500px;
+  height: 696px;
+  margin: 0 auto;
+  background-color: #e5e5e5;
+  margin-top: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 22px;
+  text-align: center;
+  padding: 40px;
+  margin-bottom: 5px;
+}
+/* <!-- CASELLE E BOTTONE FORMULARIO --> */
+form input,
+textarea {
+  height: 40px;
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 16px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  outline: none;
+  border: 2px solid lightgray;
+}
+
+form textarea {
+  height: 200px;
+  margin-bottom: 20px;
+  font-family: "Roboto";
+  font-weight: 400;
+  padding-top: 9px;
+  font-size: 16px;
+}
+/* <!-- BOTTONE FORMULARIO --> */
+input[type="submit"] {
+  background-color: #7359dc;
+  height: 50px;
+  font-size: 22px;
+  color: white;
+  padding-top: 9px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #7dc8c8;
+}
